@@ -11,11 +11,12 @@
  */
 void print_to_98(int n)
 {
+	int i;
+
 	scanf("%d", &n);
 
 	if (n < 1)
 		n = 1;
-	int i;
 
 	for (i = n; i <= 98; i++)
 	{
