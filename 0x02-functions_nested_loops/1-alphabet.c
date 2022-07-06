@@ -13,7 +13,7 @@ void print_alphabet(void)
 
 	int i, length;
 
-	int length = sizeof(alphabet) / sizeof(char);
+	length = sizeof(alphabet) / sizeof(char);
 
 	for (i = 0; i < length i++)
 		_putchar(alphabet[i]);
