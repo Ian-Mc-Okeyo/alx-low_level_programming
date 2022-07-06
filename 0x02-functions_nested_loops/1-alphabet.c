@@ -15,7 +15,7 @@ void print_alphabet(void)
 
 	length = sizeof(alphabet) / sizeof(char);
 
-	for (i = 0; i < length i++)
+	for (i = 0; i < length; i++)
 		_putchar(alphabet[i]);
 
 	_putchar('\n');
