@@ -11,10 +11,12 @@ int main(void)
 
 	int length = sizeof(word)/sizeof(char);
 
-	for (int i = 0; i<length; i++)
+	int i;
+
+	for (i = 0; i<length; i++)
 		_putchar(word[i]);
 
-	_putchar("\n'");
+	_putchar('\n');
 
 	return (0);
 }
