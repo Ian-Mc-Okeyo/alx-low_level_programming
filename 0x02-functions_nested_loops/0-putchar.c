@@ -9,11 +9,11 @@ int main(void)
 {
 	char word[8] = "_putchar";
 
-	int length = sizeof(word)/sizeof(char);
+	int length = sizeof(word) / sizeof(char);
 
 	int i;
 
-	for (i = 0; i<length; i++)
+	for (i = 0; i < length; i++)
 		_putchar(word[i]);
 
 	_putchar('\n');
