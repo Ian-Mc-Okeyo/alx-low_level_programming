@@ -1,12 +1,11 @@
 #include "main.h"
 
- /**
- * print_alphabet - prints the alphabet inn lower case
+/**
+ * print_alphabet - prints all the alphabet in small letters
+ * users only putchar
  *
- * Return void
- *
- *
- **/
+ * Return: void
+ */
 void print_alphabet(void)
 {
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
