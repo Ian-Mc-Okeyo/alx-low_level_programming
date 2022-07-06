@@ -20,17 +20,17 @@ void jack_bauer(void)
 			}
 			else
 			{
-				_putchar(h);
+				_putchar(h + '0');
 			}
 			_putchar(':');
 			if (m < 10)
 			{
 				_putchar('0' + 0);
-				_putchar('0' + m);
+				_putchar(m + '0');
 			}
 			else
 			{
-				_putchar(m);
+				_putchar(m + '0');
 			}
 			_putchar('\n');
 		}
