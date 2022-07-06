@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * _print_sign - checks the sign of a character
+ * print_sign - checks whether s number is positive, 0 or negative
  *
- *@n: character to be tested
+ * @n: the number to be checked
  *
- * Return: 1 if character is lowercase
- * 0 otherwise
+ * Return: 1 if positive
+ * 0 if zero
+ * -1 if negative
  */
 int print_sign(int n)
 {
