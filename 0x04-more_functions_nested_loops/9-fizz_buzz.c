@@ -29,7 +29,7 @@ int main(void)
 		}
 		else
 			_putchar(i + '0');
-		if (i == 100)
+		if (i != 100)
 			_putchar(' ');
 
 	}
