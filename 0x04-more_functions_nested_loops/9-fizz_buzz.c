@@ -8,7 +8,7 @@ int main(void)
 {
 	int i, j;
 
-	char word[] = "FizzBuzz";
+	char word[8] = "FizzBuzz";
 
 	for (i = 1; i <= 100; i++)
 	{
