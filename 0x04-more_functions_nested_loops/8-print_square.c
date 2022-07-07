@@ -19,7 +19,7 @@ void print_square(int size)
 			_putchar('\n');
 		}
 	}
-	esle
+	else
 	{
 		_putchar('\n');
 	}
