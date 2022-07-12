@@ -20,9 +20,12 @@ void rev_string(char *s)
 
 	while (strlen > 0)
 	{
-		news[i] = s[strlen - 1];
+		new[i - 1] = s[strlen - 1];
 		strlen--;
 		i++;
 	}
-	*s = new;
+
+	char *p = new;
+
+	*s = *p;
 }
