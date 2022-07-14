@@ -1,31 +1,28 @@
 #include "main.h"
 /**
- * _strcat- prints all the alphabet in small letters
- * @dest: string to be conccatenated to
- * @src: soure string
+ * _strcat - concatenates two strings
  *
- * Return: string pinter
+ * @dest: the string onto which @src is concatenated
+ * @src: the string which is being concatenated to @dest
+ *
+ * Return: a pointer to @dest
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, j, length, newLength;
+	int i, length;
 
 	length = 0;
-
-	while (*(dest + length) != '\0')
+	while (dest[length] != '\0')
 		length++;
 
-	newLength = length;
-
-	while (*(dest + length) != '\0')
-		newLength++;
-
-	j = 0;
-
-	for (i = length; i < newLength; i++)
+	i = 0;
+	while (src[i] != '\0')
 	{
-		dest[i] = src[j];
-		j++;
+		dest[length + i] = src[i];
+		i++;
 	}
+
+	dest[length + i] = '\0';
+
 	return (dest);
 }
